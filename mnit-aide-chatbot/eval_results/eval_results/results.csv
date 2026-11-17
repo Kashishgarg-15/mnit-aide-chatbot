@@ -1,0 +1,176 @@
+id,category,question,should_abstain,fact_recall,fact_strict,token_f1,semantic_sim,source_rank,refused,latency,error,answer
+Q01,about,When was the AIDE department at MNIT Jaipur established?,False,1.0,True,0.6857142857142856,0.6896818256833513,1,False,2.85093092918396,,The Department of Artificial Intelligence and Data Engineering (AIDE) at Malaviya National Institute of Technology Jaipur (MNIT) was established in the year 2023.
+Q02,about,Which academic programs does the AIDE department currently offer?,False,1.0,True,0.23899371069182387,0.40310646652361387,1,False,4.71973180770874,,"The Department of Artificial Intelligence and Data Engineering (AIDE) currently offers the following academic programs:
+
+*   B.Tech. in Artificial Intelligence and Data Engineering
+*   Ph.D. in Artificial Intelligence and Data Engineering
+
+The department will soon offer Postgraduate and other cutting-edge programs.
+
+You can find the scheme and syllabus for the B.Tech. program here:
+*   2023-24 B.Tech (Artificial Intelligence & Data Engineering) - 1st Year Scheme and Syllabus: [https://mnit.ac.in/dept_aide/downloads/Syllabus/UG/AIDE_IstYr.pdf](https://mnit.ac.in/dept_aide/downloads/Syllabus/UG/AIDE_IstYr.pdf)
+*   B.Tech (Artificial Intelligence & Data Engineering) Scheme and Syllabus: [https://mnit.ac.in/dept_aide/downloads/Syllabus/UG/AIDE_SchemeSyll.pdf](https://mnit.ac.in/dept_aide/downloads/Syllabus/UG/AIDE_SchemeSyll.pdf)"
+Q03,about,What is the vision of the AIDE department?,False,1.0,True,0.7719298245614035,0.9160457099261226,1,False,1.9851679801940918,,"The vision of the Department of Artificial Intelligence and Data Engineering (AIDE) is:
+
+To be a globally recognized center of excellence in Artificial Intelligence and Data Engineering, driving innovation for a smarter and sustainable future."
+Q04,about,What is the mission of the AIDE department?,False,1.0,True,0.7346938775510204,0.8868165310530403,1,False,1.9757962226867676,,"The mission of the Department of Artificial Intelligence and Data Engineering (AIDE) is:
+
+*   To advance knowledge through cutting-edge research, nurture talent, and develop intelligent solutions that address real-world challenges."
+Q05,about,In which niche areas do the AIDE faculty members specialize?,False,1.0,True,0.7894736842105262,0.9002949932017767,1,False,23.895657062530518,,"The AIDE department faculty members specialize in the following niche areas:
+
+*   Motion analysis
+*   Robotics
+*   Generative AI
+*   Brain computer interface
+*   Agentic AI"
+Q06,contacts,Who is the Head of the AIDE department?,False,0.0,False,0.0,0.0,,False,63.37853002548218,"404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}",
+Q07,contacts,What is the official email address of the AIDE Head of Department?,False,0.0,False,0.0,0.0,,False,63.556331157684326,"404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}",
+Q08,contacts,What is the postal address of the AIDE department?,False,0.0,False,0.0,0.0,,False,63.63434910774231,"404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}",
+Q09,contacts,What is the phone number of the AIDE HoD office?,False,0.0,False,0.0,0.0,,False,63.6925208568573,"404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}",
+Q10,academics,Where can I find the scheme and syllabus for the B.Tech AIDE programme?,False,0.0,False,0.0,0.0,,False,64.65852618217468,"404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}",
+Q11,academics,Is the time-table for AIDE available on the website?,False,0.0,False,0.0,0.0,,False,65.52068710327148,"404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}",
+Q12,academics,What is PEO1 for the UG programme?,False,1.0,True,0.6909090909090909,0.7801772529095213,1,False,10.339492082595825,,"The Programme Educational Objective (PEO1) for the UG programme in Artificial Intelligence and Data Engineering is:
+
+* To build a strong foundation in the field of Computer Science and Engineering among students to be creative and innovative."
+Q13,academics,What is Programme Outcome PO1 for the UG programme?,False,1.0,True,0.5128205128205129,0.6419130943982916,2,False,10.215149164199829,,"Programme Outcome PO1 for the UG programme in the Department of Artificial Intelligence and Data Engineering (AIDE) is:
+
+* **PO1:** An ability to apply knowledge of mathematics, science and engineering."
+Q14,syllabus,What is the course code of Data Structure using C in the B.Tech AIDE scheme?,False,1.0,True,0.27777777777777773,0.3392538709204311,1,False,10.023948192596436,,"The course code for **Data Structure using C** in the B.Tech. AIDE curriculum is **26AIT101**. 
+
+*(Source: [AIDE_IstYr.pdf](https://mnit.ac.in/dept_aide/downloads/Syllabus/UG/AIDE_IstYr.pdf))*"
+Q15,syllabus,How many credits does the Makers Lab carry in the second semester?,False,1.0,True,0.41666666666666663,0.5592881461542858,1,False,7.155495882034302,,The Makers Lab carries 6 credits in the second semester.
+Q16,syllabus,What is the course code for Introduction to Artificial Intelligence?,False,1.0,True,0.5185185185185185,0.5568536555077463,1,False,8.076665878295898,,The course code for Introduction to Artificial Intelligence is **26AIT151** (also listed as **22AIT2xx** in the tentative UG scheme).
+Q17,syllabus,What is the total number of credits in the first semester of B.Tech AIDE (AY 2026-27)?,False,1.0,True,0.42424242424242425,0.5841254039361375,1,False,3.914757013320923,,The total number of credits in the first semester of the B.Tech. in Artificial Intelligence & Data Engineering (AY 2026-27 scheme) is **20**.
+Q18,syllabus,Which dynamic memory allocation functions are covered in the Data Structure using C course?,False,1.0,True,0.3478260869565218,0.5455576178409973,1,False,6.40620493888855,,"The dynamic memory allocation functions covered in the Data Structure using C course are:
+
+* `malloc()`
+* `calloc()`
+* `realloc()`
+* `free()`"
+Q19,facilities,What laboratory facility does the AIDE department have?,False,0.0,False,0.05128205128205128,0.02354429029969771,,False,3.263835906982422,,"The department features state-of-the-art labs that provide students with the necessary infrastructure to work on real-world problems, ranging from developing intelligent algorithms to engineering scalable data pipelines."
+Q20,facilities,How many computer systems are there in the AIM Lab?,False,1.0,True,0.3018867924528302,0.40542667613502903,1,False,9.714674949645996,,"There are **36** computer systems in the Artificial Intelligence and Machine Learning (AIM) Lab. 
+
+**Lab Details:**
+* **Processor:** 12th Gen Intel(R) Core(TM) i7-12700 (2.10 GHz)
+* **RAM:** 16GB
+* **Storage:** 500 GB SSD, 1 TB HDD
+* **Software Installed:** OS Ubuntu GCC, Python, Sql-Server"
+Q21,facilities,What processor do the AIM Lab systems use?,False,1.0,True,0.4444444444444445,0.4272777935598005,1,False,10.175776958465576,,"The Artificial Intelligence and Machine Learning (AIM Lab) systems use the following processor:
+
+* **Processor:** 12th Gen Intel(R) Core(TM) i7-12700 (2.10 GHz)"
+Q22,facilities,What software is installed on the AIM Lab computers?,False,1.0,True,0.4827586206896552,0.6329914577841413,1,False,4.027951002120972,,"The Artificial Intelligence and Machine Learning (AIM Lab) features computer systems installed with the following software:
+
+* OS Ubuntu GCC
+* Python
+* Sql-Server"
+Q23,committee,Who is the Convener of the Department Under-Graduate Committee (DUGC)?,False,1.0,True,0.782608695652174,0.8184760599104474,1,False,3.685749053955078,,The Convener of the Department Under-Graduate Committee (DUGC) is Dr. Arya Prakash Padhi.
+Q24,committee,Who is the Convener of the Department Post-Graduate Committee (DPGC)?,False,1.0,True,0.339622641509434,0.39789334195295034,1,False,2.846334934234619,,"The Convener of the Department Post-Graduate Committee (DPGC) is Dr. Satyendra S Chouhan. 
+
+For further details, please visit the [AIDE Committee page](https://mnit.ac.in/dept_aide/committee) or the [Contacts page](https://mnit.ac.in/dept_aide/contacts)."
+Q25,committee,Who is the Programme Advisor for I B.Tech in the DUGC?,False,1.0,True,0.2857142857142857,0.43122753881373727,1,False,2.998749017715454,,The Programme Advisor for I B.Tech in the Department Under-Graduate Committee (DUGC) is Dr. Dinesh Gopalani.
+Q26,committee,Who are the student members of the DUGC?,False,1.0,True,0.35714285714285715,0.45414438771683835,1,False,2.7082409858703613,,"The student members of the Department Under-Graduate Committee (DUGC) are:
+
+* **Divyansh Pokharna** (2023UAI1804) - Student Member: I
+* **Harshvardhan** (2024UAI1207) - Student Member: II"
+Q27,patents,Which patent was published in March 2026?,False,1.0,True,0.6031746031746033,0.6878410435985703,1,False,2.6348421573638916,,"The patent published in March 2026 is:
+
+* **""Single-Channel EEG Device for Real-Time Classification of Attentive and Relaxed Mental States""**
+  * **Inventors:** Sandeep Kumar, Chandra Prakash, Narendra Sharma
+  * **Registration Number:** 202611031857 [The Patent Office, Government of India]
+  * **Date:** 17-03-2026"
+Q28,patents,Who are the inventors of the patent 'The smart gait analyzer'?,False,1.0,True,0.5217391304347825,0.6494124915948986,1,False,3.9399681091308594,,"The inventors of the patent ""The smart gait analyzer"" are:
+
+* Rajesh Kumar
+* Chandra Prakash
+* Namita Mittal"
+Q29,patents,What is the registration number of the patent on identifying and clustering human joints for smart physiotherapy?,False,0.0,False,0.0,0.0,,False,0.0011920928955078125,,"The AIDE department has **7 Joint Faculty** members:
+
+**Prof. Neeta Nain** (Professor)
+- Research interests: Image Processing, Pattern Recognition, Computer Graphics, Machine Learning, Deep Learning
+- Email: nnain.cse@mnit.ac.in
+- Phone: 01412713285
+
+**Prof. Pilli Emmanuel Shubhakar** (Professor)
+- Research interests: Security, Privacy and Forensics, Cloud Computing, Big Data, Internet of Things, Blockchain, Quantum Computing
+- Email: espilli.cse@mnit.ac.in
+- Phone: 01412713376
+
+**Prof. Rajesh Kumar** (Professor)
+- Research interests: Smart Grid, Robotics, Computational Intelligence, Intelligent Systems, Machine Learning, Power Conversion and Management
+- Email: rkumar.ee@mnit.ac.in
+- Phone: 01412713372
+
+**Dr. Amit Mahesh Joshi** (Associate Professor)
+- Research interests: Biomedical Signal Processing
+- Email: amjoshi.ece@mnit.ac.in
+- Phone: 01412713344
+
+**Dr. Gunjan Soni** (Associate Professor)
+- Research interests: Predictive Maintenance, Supply Chain Management, Artificial Intelligence in Manufacturing Systems
+- Email: gsoni.mech@mnit.ac.in
+- Phone: 01412713211
+
+**Dr. Kuldeep Singh** (Associate Professor)
+- Research interests: Machine/Deep Learning, Computer Vision, Biometrics, Cyber Security, Medical Image Analysis
+- Email: kuldeep.ece@mnit.ac.in
+- Phone: 01412529077
+
+**Dr. Vikash Kumar** (Assistant Professor)
+- Research interests: Intrusion Detection System, Cyber Security, Network Security, Machine and Deep Learning for Security, Generative Modeling
+- Email: vikash.cse@mnit.ac.in
+- Phone: 01418442862"
+Q30,projects,Who is the principal investigator of the SERB-funded diabetic foot ulcer project and what is its funding amount?,False,1.0,True,0.41666666666666663,0.44481901675953206,1,False,8.769059181213379,,"The Principal Investigator of the SERB-funded project titled ""Computational Techniques based investigation for Diabetic foot ulcers complications (CISMR)"" is Dr. Chandra Prakash. 
+
+The funding amount for the project is 39.99 Lacs."
+Q31,projects,Which agency funded the Information Security Education and Awareness (ISEA) project and how much?,False,1.0,True,0.1348314606741573,0.3776879167044369,2,False,7.4338219165802,,"The Information Security Education and Awareness (ISEA) projects have been funded by the Ministry of Electronics and Information Technology (MeitY) with the following details:
+
+* **Information Security Education and Awareness (ISEA) Project (Phase 1)**
+  * **Funding Agency:** Ministry of Electronics and Information Technology (MeitY)
+  * **Amount:** Rs. 70.00 Lakhs *(Source: [Malaviya National Institute of Technology Jaipur](https://mnit.ac.in/dept_aide/projects))*
+* **Information Security Education and Awareness (ISEA - II / Phase II)**
+  * **Funding Agency:** Ministry of Electronics and Information Technology
+  * **Amount:** Rs. 55.00 Lakhs *(Source: [Malaviya National Institute of Technology Jaipur](https://mnit.ac.in/dept_aide/profile?fid=RKSK))* / Rs. 78.76 Lakhs *(Source: [PDF Resume](https://mnit.ac.in/PortalProfile/resume/faculty/mnit200271220250251271766827287.pdf))*
+* **Information Security Education Awareness III**
+  * **Funding Agency:** Ministry of Electronics and Information Technology
+  * **Amount:** Rs. 78.76 Lakhs *(Source: [PDF Resume](https://mnit.ac.in/PortalProfile/resume/faculty/mnit200271220250251271766827287.pdf))*"
+Q32,projects,What is the funding agency and amount for the IoT Enable Waste Management System for Smart City project?,False,1.0,True,0.24242424242424243,0.30701623208581347,1,False,3.979966878890991,,"The funding agency and amount for the ""IoT Enable Waste Management System for Smart City"" project are:
+
+* **Funding Agency:** DST Rajasthan
+* **Amount:** ₹5.43 Lacs"
+Q33,events,Where was the short term course AMLAC-25 held?,False,1.0,True,0.16666666666666669,0.2327443369146151,1,False,3.981276035308838,,"The short-term course on Advancements in Machine Learning and Accelerated Computing (AMLAC-25) was held at SVNIT, Surat, India. 
+
+For further details, please visit the [AIDE Events page](https://mnit.ac.in/dept_aide/events) or check the [AIDE Contacts page](https://mnit.ac.in/dept_aide/contacts)."
+Q34,events,Which short term course was held at MNIT Jaipur in October 2021?,False,1.0,True,0.5714285714285715,0.7449547206576912,1,False,5.617923021316528,,"The short-term course held at MNIT Jaipur in October 2021 was:
+
+* **Android APP development using JAVA**
+  * **Dates:** 23-10-2021 to 01-11-2021
+  * **Location:** MNIT Jaipur, Jaipur, India"
+Q35,events,What were the dates of the ICIoTCT 2017 conference?,False,1.0,True,0.5128205128205129,0.7618252299023424,1,False,3.6719369888305664,,"The International Conference on Advances in Internet of Things and Connected Technologies (ICIoTCT 2017) took place from **26-05-2017 to 27-05-2017** at MNIT Jaipur, Jaipur, India."
+Q36,awards,What award did Prof. Dinesh Gopalani receive?,False,1.0,True,0.8333333333333333,0.8154191108109252,2,False,3.97774076461792,,Prof. Dinesh Gopalani received the **Outstanding Teacher Award** from MNIT Jaipur in 2022.
+Q37,awards,Which award relates to the Smart India Hackathon 2024?,False,1.0,True,0.5090909090909091,0.7651189519815152,2,False,3.0268099308013916,,"The award related to the Smart India Hackathon (SIH-2024) is the **Mentor of Winning Team for Smart India Hackathon (SIH-2024)**, given by the Ministry of Education Government of India AICTE in the year 2024 to Dr. Chandra Prakash."
+Q38,awards,Who won the Best Paper award at SocProS 2015 and where was it held?,False,1.0,True,0.6530612244897959,0.679602766794318,3,False,5.856391906738281,,The Best Paper at the Fifth International Conference on Soft Computing for Problem Solving (SocProS 2015) was awarded to Dr. Chandra Prakash. The conference was held at IIT Roorkee in 2015.
+Q39,gallery,When was the inaugural ceremony of the AIDE department held?,False,0.0,False,0.14814814814814814,0.19816986174946818,,True,10.43520188331604,,I could not find information on the inaugural ceremony date of the AIDE department on the AIDE website. Please check the Contacts page at [https://mnit.ac.in/dept_aide/contacts](https://mnit.ac.in/dept_aide/contacts) for further inquiries.
+Q40,gallery,When was the Department Day celebrated?,False,1.0,True,0.8,0.868520090266646,3,False,17.906312942504883,,"The Department Day was celebrated on October 9, 2025 (2025-10-09)."
+Q41,people,What are Dr. Arya Prakash Padhi's research interests?,False,1.0,True,0.5263157894736842,0.689726735361271,2,False,9.3177809715271,,"Dr. Arya Prakash Padhi's research interests are:
+
+* Generative AI
+* Structural Topology Optimization"
+Q42,people,What is Dr. Vikash Kumar's email address?,False,1.0,True,0.5882352941176471,0.7235599723497264,2,False,18.713401079177856,,Dr. Vikash Kumar's email address is vikash.cse@mnit.ac.in.
+Q43,people,What are the research interests of Prof. Dinesh Gopalani?,False,1.0,True,0.7346938775510204,0.8474266605475393,,False,9.049951076507568,,"The research interests of Prof. Dinesh Gopalani include:
+
+* Theoretical Computer Science
+* Compilers and Programming Languages
+* Aspect Oriented Systems
+* Formal Theory of Programming Languages
+* Natural Language Processing
+* Database Management Systems
+* Blockchain Technology"
+Q44,people,What is the designation of Mr. Rajesh Kumar Meerwal in the department?,False,1.0,True,0.36363636363636365,0.3839139050303488,3,False,9.63513970375061,,Mr. Rajesh Kumar Meerwal holds the designation of **Technician (SG-II)** in the department.
+Q45,publications,How many journal publications are listed for the AIDE department?,False,1.0,True,0.4615384615384615,0.7193415756197037,1,False,8.927433013916016,,There are 53 journal publications listed for the AIDE department.
+Q46,publications,How many conference publications are listed on the AIDE website?,False,0.0,False,0.08163265306122448,0.17085816351836086,1,True,8.584441900253296,,"I could not find the exact total number of conference publications listed on the AIDE website because the provided information only contains excerpts rather than the complete directory. 
+
+For complete details, please visit the [AIDE Contacts page](https://mnit.ac.in/dept_aide/contacts)."
+Q47,out_of_scope,What are the JEE Main closing ranks for B.Tech AIDE admission?,True,,,0.3333333333333333,0.2722760020176617,,True,2.4439868927001953,,Could not find the JEE Main closing ranks for B.Tech AIDE admission on the AIDE website. Please visit the [Contacts page](https://mnit.ac.in/dept_aide/contacts) for further inquiries.
+Q48,out_of_scope,What was the highest placement package offered to AIDE students?,True,,,0.25,0.292015947835875,,True,8.696442127227783,,I could not find information regarding the highest placement package offered to AIDE students on the AIDE website. Please visit the [Contacts page](https://mnit.ac.in/dept_aide/contacts) for further inquiries.
+Q49,out_of_scope,How many PhD scholars are currently enrolled in the department?,True,,,0.30303030303030304,0.3618349921063154,,True,10.841049909591675,,"Details regarding the number of currently enrolled PhD scholars are not available on the AIDE website (""No details found. Please come back.""). You could not find it on the AIDE website and can check the [Contacts page](https://mnit.ac.in/dept_aide/contacts) for further assistance."
+Q50,out_of_scope,Who won the FIFA World Cup in 2022?,True,,,0.14634146341463417,0.07058081170741898,,True,11.76842188835144,,I could not find information on who won the FIFA World Cup in 2022 on the AIDE website. Please check the [Contacts page](https://mnit.ac.in/dept_aide/contacts) for further assistance.

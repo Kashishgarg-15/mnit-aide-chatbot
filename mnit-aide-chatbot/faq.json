@@ -1,0 +1,80 @@
+[
+  {
+    "match": [
+      [
+        "joint",
+        "adjunct"
+      ]
+    ],
+    "mode": "direct",
+    "answer": "The AIDE department has **7 Joint Faculty** and **2 Adjunct Faculty** members.\n\n### Joint Faculty (7)\n\n**Prof. Neeta Nain** (Professor)\n- Research interests: Image Processing, Pattern Recognition, Computer Graphics, Machine Learning, Deep Learning\n- Email: nnain.cse@mnit.ac.in\n- Phone: 01412713285\n\n**Prof. Pilli Emmanuel Shubhakar** (Professor)\n- Research interests: Security, Privacy and Forensics, Cloud Computing, Big Data, Internet of Things, Blockchain, Quantum Computing\n- Email: espilli.cse@mnit.ac.in\n- Phone: 01412713376\n\n**Prof. Rajesh Kumar** (Professor)\n- Research interests: Smart Grid, Robotics, Computational Intelligence, Intelligent Systems, Machine Learning, Power Conversion and Management\n- Email: rkumar.ee@mnit.ac.in\n- Phone: 01412713372\n\n**Dr. Amit Mahesh Joshi** (Associate Professor)\n- Research interests: Biomedical Signal Processing\n- Email: amjoshi.ece@mnit.ac.in\n- Phone: 01412713344\n\n**Dr. Gunjan Soni** (Associate Professor)\n- Research interests: Predictive Maintenance, Supply Chain Management, Artificial Intelligence in Manufacturing Systems\n- Email: gsoni.mech@mnit.ac.in\n- Phone: 01412713211\n\n**Dr. Kuldeep Singh** (Associate Professor)\n- Research interests: Machine/Deep Learning, Computer Vision, Biometrics, Cyber Security, Medical Image Analysis\n- Email: kuldeep.ece@mnit.ac.in\n- Phone: 01412529077\n\n**Dr. Vikash Kumar** (Assistant Professor)\n- Research interests: Intrusion Detection System, Cyber Security, Network Security, Machine and Deep Learning for Security, Generative Modeling\n- Email: vikash.cse@mnit.ac.in\n- Phone: 01418442862\n\n### Adjunct Faculty (2)\n\n**Dr. Ashwini Kumar Sharma** (Adjunct Faculty)\n- Qualification: Ph.D. (e-Governance), M.Tech. (Computer Science), B.E. (Computer Science)\n- Email: ashwinisharma62@gmail.com\n\n**Dr. V. C. V. Rao** (Adjunct Faculty)\n- Qualification: Ph.D. (Mathematics)\n- Research interests: High Performance Computing\n- Email: vcvrao287@gmail.com",
+    "sources": [
+      {
+        "title": "AIDE Faculty / People",
+        "url": "https://mnit.ac.in/dept_aide/people"
+      }
+    ]
+  },
+  {
+    "match": [
+      [
+        "joint"
+      ]
+    ],
+    "mode": "direct",
+    "answer": "The AIDE department has **7 Joint Faculty** members:\n\n**Prof. Neeta Nain** (Professor)\n- Research interests: Image Processing, Pattern Recognition, Computer Graphics, Machine Learning, Deep Learning\n- Email: nnain.cse@mnit.ac.in\n- Phone: 01412713285\n\n**Prof. Pilli Emmanuel Shubhakar** (Professor)\n- Research interests: Security, Privacy and Forensics, Cloud Computing, Big Data, Internet of Things, Blockchain, Quantum Computing\n- Email: espilli.cse@mnit.ac.in\n- Phone: 01412713376\n\n**Prof. Rajesh Kumar** (Professor)\n- Research interests: Smart Grid, Robotics, Computational Intelligence, Intelligent Systems, Machine Learning, Power Conversion and Management\n- Email: rkumar.ee@mnit.ac.in\n- Phone: 01412713372\n\n**Dr. Amit Mahesh Joshi** (Associate Professor)\n- Research interests: Biomedical Signal Processing\n- Email: amjoshi.ece@mnit.ac.in\n- Phone: 01412713344\n\n**Dr. Gunjan Soni** (Associate Professor)\n- Research interests: Predictive Maintenance, Supply Chain Management, Artificial Intelligence in Manufacturing Systems\n- Email: gsoni.mech@mnit.ac.in\n- Phone: 01412713211\n\n**Dr. Kuldeep Singh** (Associate Professor)\n- Research interests: Machine/Deep Learning, Computer Vision, Biometrics, Cyber Security, Medical Image Analysis\n- Email: kuldeep.ece@mnit.ac.in\n- Phone: 01412529077\n\n**Dr. Vikash Kumar** (Assistant Professor)\n- Research interests: Intrusion Detection System, Cyber Security, Network Security, Machine and Deep Learning for Security, Generative Modeling\n- Email: vikash.cse@mnit.ac.in\n- Phone: 01418442862",
+    "sources": [
+      {
+        "title": "AIDE Faculty / People",
+        "url": "https://mnit.ac.in/dept_aide/people"
+      }
+    ]
+  },
+  {
+    "match": [
+      [
+        "adjunct"
+      ]
+    ],
+    "mode": "direct",
+    "answer": "The AIDE department has **2 Adjunct Faculty** members:\n\n**Dr. Ashwini Kumar Sharma** (Adjunct Faculty)\n- Qualification: Ph.D. (e-Governance), M.Tech. (Computer Science), B.E. (Computer Science)\n- Email: ashwinisharma62@gmail.com\n\n**Dr. V. C. V. Rao** (Adjunct Faculty)\n- Qualification: Ph.D. (Mathematics)\n- Research interests: High Performance Computing\n- Email: vcvrao287@gmail.com",
+    "sources": [
+      {
+        "title": "AIDE Faculty / People",
+        "url": "https://mnit.ac.in/dept_aide/people"
+      }
+    ]
+  },
+  {
+    "match": [
+      [
+        "total",
+        "faculty"
+      ],
+      [
+        "how many",
+        "faculty"
+      ],
+      [
+        "number",
+        "faculty"
+      ],
+      [
+        "count",
+        "faculty"
+      ],
+      [
+        "faculty",
+        "strength"
+      ]
+    ],
+    "mode": "direct",
+    "answer": "The AIDE department has **5 faculty members**:\n\n- **Head of Department:** Dr. Chandra Prakash (Assistant Professor)\n- **Professor:** Prof. Dinesh Gopalani\n- **Assistant Professor:** Dr. Arya Prakash Padhi\n- **Adjunct Faculty (2):** Dr. Ashwini Kumar Sharma and Dr. V. C. V. Rao\n\nIn addition, the department has **7 Joint Faculty** members from other departments: Prof. Neeta Nain, Prof. Pilli Emmanuel Shubhakar, Prof. Rajesh Kumar, Dr. Amit Mahesh Joshi, Dr. Gunjan Soni, Dr. Kuldeep Singh and Dr. Vikash Kumar.",
+    "sources": [
+      {
+        "title": "AIDE Faculty / People",
+        "url": "https://mnit.ac.in/dept_aide/people"
+      }
+    ]
+  }
+]

@@ -1,0 +1,880 @@
+[
+  {
+    "id": "Q01",
+    "category": "about",
+    "question": "When was the AIDE department at MNIT Jaipur established?",
+    "reference_answer": "The Department of Artificial Intelligence and Data Engineering was established in 2023.",
+    "required_facts": [
+      [
+        "2023"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q02",
+    "category": "about",
+    "question": "Which academic programs does the AIDE department currently offer?",
+    "reference_answer": "It currently offers a B.Tech. in Artificial Intelligence and Data Engineering and a Ph.D. in Artificial Intelligence and Data Engineering.",
+    "required_facts": [
+      [
+        "b.tech",
+        "btech",
+        "bachelor of technology"
+      ],
+      [
+        "ph.d",
+        "phd",
+        "doctoral",
+        "doctor of philosophy"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide",
+      "dept_aide/academics"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q03",
+    "category": "about",
+    "question": "What is the vision of the AIDE department?",
+    "reference_answer": "To be a globally recognized center of excellence in Artificial Intelligence and Data Engineering, driving innovation for a smarter and sustainable future.",
+    "required_facts": [
+      [
+        "globally recognized",
+        "globally recognised"
+      ],
+      [
+        "center of excellence",
+        "centre of excellence"
+      ],
+      [
+        "sustainable"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q04",
+    "category": "about",
+    "question": "What is the mission of the AIDE department?",
+    "reference_answer": "To advance knowledge through cutting-edge research, nurture talent, and develop intelligent solutions that address real-world challenges.",
+    "required_facts": [
+      [
+        "research"
+      ],
+      [
+        "nurture talent",
+        "talent"
+      ],
+      [
+        "real-world",
+        "real world"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q05",
+    "category": "about",
+    "question": "In which niche areas do the AIDE faculty members specialize?",
+    "reference_answer": "Faculty specialize in niche areas like motion analysis, robotics, generative AI, brain computer interface, and agentic AI.",
+    "required_facts": [
+      [
+        "motion analysis"
+      ],
+      [
+        "robotics"
+      ],
+      [
+        "generative ai"
+      ],
+      [
+        "brain"
+      ],
+      [
+        "agentic"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q06",
+    "category": "contacts",
+    "question": "Who is the Head of the AIDE department?",
+    "reference_answer": "Dr. Chandra Prakash is the Head of the Department of Artificial Intelligence and Data Engineering.",
+    "required_facts": [
+      [
+        "chandra prakash"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/contacts",
+      "dept_aide",
+      "dept_aide/people"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q07",
+    "category": "contacts",
+    "question": "What is the official email address of the AIDE Head of Department?",
+    "reference_answer": "The HoD's email is hod.aide@mnit.ac.in.",
+    "required_facts": [
+      [
+        "hod.aide@mnit.ac.in"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/contacts",
+      "dept_aide"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q08",
+    "category": "contacts",
+    "question": "What is the postal address of the AIDE department?",
+    "reference_answer": "Malaviya National Institute of Technology, JLN Marg, Jaipur-302017.",
+    "required_facts": [
+      [
+        "jln marg"
+      ],
+      [
+        "302017"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/contacts",
+      "dept_aide"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q09",
+    "category": "contacts",
+    "question": "What is the phone number of the AIDE HoD office?",
+    "reference_answer": "0141-2715068 / 2715069 (Contacts page); the home page lists 0141-2715069 and 2715070.",
+    "required_facts": [
+      [
+        "2715068",
+        "2715069",
+        "2715070"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/contacts",
+      "dept_aide"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q10",
+    "category": "academics",
+    "question": "Where can I find the scheme and syllabus for the B.Tech AIDE programme?",
+    "reference_answer": "The Academics page links to the Scheme and Syllabus PDFs (AIDE_IstYr.pdf and AIDE_SchemeSyll.pdf).",
+    "required_facts": [
+      [
+        "aide_istyr",
+        "aide_schemesyll",
+        "scheme and syllabus"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/academics"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q11",
+    "category": "academics",
+    "question": "Is the time-table for AIDE available on the website?",
+    "reference_answer": "No. The page says the Time Table will be updated soon.",
+    "required_facts": [
+      [
+        "soon",
+        "not yet",
+        "not available",
+        "will be updated",
+        "isn't available",
+        "is not available"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/academics"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q12",
+    "category": "academics",
+    "question": "What is PEO1 for the UG programme?",
+    "reference_answer": "To build strong foundation in the field of Computer Science and Engineering among students to be creative and innovative.",
+    "required_facts": [
+      [
+        "strong foundation"
+      ],
+      [
+        "creative"
+      ],
+      [
+        "innovative"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/academics"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q13",
+    "category": "academics",
+    "question": "What is Programme Outcome PO1 for the UG programme?",
+    "reference_answer": "An ability to apply knowledge of mathematics, science and engineering.",
+    "required_facts": [
+      [
+        "mathematics"
+      ],
+      [
+        "science"
+      ],
+      [
+        "engineering"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/academics"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q14",
+    "category": "syllabus",
+    "question": "What is the course code of Data Structure using C in the B.Tech AIDE scheme?",
+    "reference_answer": "The course code is 26AIT101.",
+    "required_facts": [
+      [
+        "26ait101"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/downloads/Syllabus/UG/AIDE_IstYr.pdf"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q15",
+    "category": "syllabus",
+    "question": "How many credits does the Makers Lab carry in the second semester?",
+    "reference_answer": "Makers Lab (26ICP101) has L-T-P 0-3-6 and carries 6 credits.",
+    "required_facts": [
+      [
+        "re:\\b(6|six)\\b"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/downloads/Syllabus/UG/AIDE_IstYr.pdf"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q16",
+    "category": "syllabus",
+    "question": "What is the course code for Introduction to Artificial Intelligence?",
+    "reference_answer": "Introduction to Artificial Intelligence has the code 26AIT151.",
+    "required_facts": [
+      [
+        "26ait151"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/downloads/Syllabus/UG/AIDE_IstYr.pdf"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q17",
+    "category": "syllabus",
+    "question": "What is the total number of credits in the first semester of B.Tech AIDE (AY 2026-27)?",
+    "reference_answer": "The first semester has a total of 20 credits.",
+    "required_facts": [
+      [
+        "re:\\b(20|twenty)\\b"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/downloads/Syllabus/UG/AIDE_IstYr.pdf"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q18",
+    "category": "syllabus",
+    "question": "Which dynamic memory allocation functions are covered in the Data Structure using C course?",
+    "reference_answer": "malloc(), calloc(), realloc() and free().",
+    "required_facts": [
+      [
+        "malloc"
+      ],
+      [
+        "calloc"
+      ],
+      [
+        "realloc"
+      ],
+      [
+        "free"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/downloads/Syllabus/UG/AIDE_IstYr.pdf"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q19",
+    "category": "facilities",
+    "question": "What laboratory facility does the AIDE department have?",
+    "reference_answer": "The Artificial Intelligence and Machine Learning (AIM) Lab.",
+    "required_facts": [
+      [
+        "aim lab",
+        "artificial intelligence and machine learning"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/facilities"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q20",
+    "category": "facilities",
+    "question": "How many computer systems are there in the AIM Lab?",
+    "reference_answer": "There are 36 systems in the AIM Lab.",
+    "required_facts": [
+      [
+        "36"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/facilities"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q21",
+    "category": "facilities",
+    "question": "What processor do the AIM Lab systems use?",
+    "reference_answer": "12th Gen Intel Core i7-12700 (2.10 GHz), with 16 GB RAM, 500 GB SSD and 1 TB HDD.",
+    "required_facts": [
+      [
+        "i7-12700",
+        "i7 12700"
+      ],
+      [
+        "12th"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/facilities"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q22",
+    "category": "facilities",
+    "question": "What software is installed on the AIM Lab computers?",
+    "reference_answer": "Ubuntu OS, GCC, Python and SQL Server.",
+    "required_facts": [
+      [
+        "ubuntu"
+      ],
+      [
+        "gcc"
+      ],
+      [
+        "python"
+      ],
+      [
+        "sql"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/facilities"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q23",
+    "category": "committee",
+    "question": "Who is the Convener of the Department Under-Graduate Committee (DUGC)?",
+    "reference_answer": "Dr. Arya Prakash Padhi is the Convener of DUGC.",
+    "required_facts": [
+      [
+        "arya prakash padhi",
+        "padhi"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/committee"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q24",
+    "category": "committee",
+    "question": "Who is the Convener of the Department Post-Graduate Committee (DPGC)?",
+    "reference_answer": "Dr. Satyendra S Chouhan is the Convener of DPGC.",
+    "required_facts": [
+      [
+        "chouhan"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/committee"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q25",
+    "category": "committee",
+    "question": "Who is the Programme Advisor for I B.Tech in the DUGC?",
+    "reference_answer": "Dr. Dinesh Gopalani.",
+    "required_facts": [
+      [
+        "gopalani"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/committee"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q26",
+    "category": "committee",
+    "question": "Who are the student members of the DUGC?",
+    "reference_answer": "Divyansh Pokharna (2023UAI1804) and Harshvardhan (2024UAI1207).",
+    "required_facts": [
+      [
+        "pokharna"
+      ],
+      [
+        "harshvardhan"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/committee"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q27",
+    "category": "patents",
+    "question": "Which patent was published in March 2026?",
+    "reference_answer": "'Single-Channel EEG Device for Real-Time Classification of Attentive and Relaxed Mental States' (Reg. No. 202611031857), published on 17-03-2026.",
+    "required_facts": [
+      [
+        "eeg"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/patents"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q28",
+    "category": "patents",
+    "question": "Who are the inventors of the patent 'The smart gait analyzer'?",
+    "reference_answer": "Rajesh Kumar, Chandra Prakash and Namita Mittal.",
+    "required_facts": [
+      [
+        "rajesh kumar"
+      ],
+      [
+        "chandra prakash"
+      ],
+      [
+        "namita mittal"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/patents"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q29",
+    "category": "patents",
+    "question": "What is the registration number of the patent on identifying and clustering human joints for smart physiotherapy?",
+    "reference_answer": "Reg. No. 202311034284 (awarded on 05-05-2025).",
+    "required_facts": [
+      [
+        "202311034284"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/patents"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q30",
+    "category": "projects",
+    "question": "Who is the principal investigator of the SERB-funded diabetic foot ulcer project and what is its funding amount?",
+    "reference_answer": "Dr. Chandra Prakash; the SERB project has an amount of 39.99 lakhs (2023-2026).",
+    "required_facts": [
+      [
+        "chandra prakash"
+      ],
+      [
+        "39.99"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/projects"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q31",
+    "category": "projects",
+    "question": "Which agency funded the Information Security Education and Awareness (ISEA) project and how much?",
+    "reference_answer": "MeitY (Ministry of Electronics and Information Technology) funded it with 70.00 lakhs; PI Prof. Dinesh Gopalani, 2005-2014.",
+    "required_facts": [
+      [
+        "meity",
+        "electronics and information technology"
+      ],
+      [
+        "70"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/projects"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q32",
+    "category": "projects",
+    "question": "What is the funding agency and amount for the IoT Enable Waste Management System for Smart City project?",
+    "reference_answer": "DST Rajasthan, 5.43 lakhs, duration 2016-2019.",
+    "required_facts": [
+      [
+        "dst"
+      ],
+      [
+        "5.43"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/projects"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q33",
+    "category": "events",
+    "question": "Where was the short term course AMLAC-25 held?",
+    "reference_answer": "At SVNIT, Surat, India, in April 2025.",
+    "required_facts": [
+      [
+        "svnit",
+        "sardar vallabhbhai"
+      ],
+      [
+        "surat"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/events"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q34",
+    "category": "events",
+    "question": "Which short term course was held at MNIT Jaipur in October 2021?",
+    "reference_answer": "Android APP development using JAVA (23-10-2021 to 01-11-2021).",
+    "required_facts": [
+      [
+        "android"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/events"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q35",
+    "category": "events",
+    "question": "What were the dates of the ICIoTCT 2017 conference?",
+    "reference_answer": "26-05-2017 to 27-05-2017 at MNIT Jaipur.",
+    "required_facts": [
+      [
+        "26-05-2017",
+        "26 may",
+        "may 26",
+        "26th may",
+        "26/05/2017"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/events"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q36",
+    "category": "awards",
+    "question": "What award did Prof. Dinesh Gopalani receive?",
+    "reference_answer": "He received the Outstanding Teacher Award from MNIT Jaipur in 2022.",
+    "required_facts": [
+      [
+        "outstanding teacher"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/awards"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q37",
+    "category": "awards",
+    "question": "Which award relates to the Smart India Hackathon 2024?",
+    "reference_answer": "Dr. Chandra Prakash was Mentor of the Winning Team for Smart India Hackathon (SIH-2024).",
+    "required_facts": [
+      [
+        "mentor"
+      ],
+      [
+        "smart india hackathon",
+        "sih"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/awards"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q38",
+    "category": "awards",
+    "question": "Who won the Best Paper award at SocProS 2015 and where was it held?",
+    "reference_answer": "Dr. Chandra Prakash won it at the Fifth International Conference on Soft Computing for Problem Solving, IIT Roorkee.",
+    "required_facts": [
+      [
+        "chandra prakash"
+      ],
+      [
+        "roorkee"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/awards"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q39",
+    "category": "gallery",
+    "question": "When was the inaugural ceremony of the AIDE department held?",
+    "reference_answer": "The inaugural ceremony took place on 22 July 2024.",
+    "required_facts": [
+      [
+        "2024-07-22",
+        "22-07-2024",
+        "22 july 2024",
+        "july 22, 2024",
+        "22nd july 2024",
+        "22/07/2024",
+        "22 jul 2024",
+        "july 22 2024"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/gallery"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q40",
+    "category": "gallery",
+    "question": "When was the Department Day celebrated?",
+    "reference_answer": "Department Day was celebrated on 9 October 2025.",
+    "required_facts": [
+      [
+        "2025-10-09",
+        "09-10-2025",
+        "9 october 2025",
+        "october 9, 2025",
+        "9th october 2025",
+        "09/10/2025",
+        "9 oct 2025",
+        "october 9 2025"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/gallery"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q41",
+    "category": "people",
+    "question": "What are Dr. Arya Prakash Padhi's research interests?",
+    "reference_answer": "Generative AI and Structural Topology Optimization.",
+    "required_facts": [
+      [
+        "generative ai"
+      ],
+      [
+        "topology optimization",
+        "topology optimisation"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/people"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q42",
+    "category": "people",
+    "question": "What is Dr. Vikash Kumar's email address?",
+    "reference_answer": "vikash.cse@mnit.ac.in",
+    "required_facts": [
+      [
+        "vikash.cse@mnit.ac.in"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/people"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q43",
+    "category": "people",
+    "question": "What are the research interests of Prof. Dinesh Gopalani?",
+    "reference_answer": "Theoretical Computer Science, Compilers and Programming Languages, Aspect Oriented Systems, Formal Theory of Programming Languages, Natural Language Processing.",
+    "required_facts": [
+      [
+        "compiler"
+      ],
+      [
+        "natural language processing",
+        "nlp"
+      ],
+      [
+        "aspect oriented",
+        "aspect-oriented"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/people"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q44",
+    "category": "people",
+    "question": "What is the designation of Mr. Rajesh Kumar Meerwal in the department?",
+    "reference_answer": "Technician (SG-II), with expertise in web development.",
+    "required_facts": [
+      [
+        "technician"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/people"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q45",
+    "category": "publications",
+    "question": "How many journal publications are listed for the AIDE department?",
+    "reference_answer": "53 journal publications.",
+    "required_facts": [
+      [
+        "53"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/publications",
+      "dept_aide"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q46",
+    "category": "publications",
+    "question": "How many conference publications are listed on the AIDE website?",
+    "reference_answer": "103 conference publications.",
+    "required_facts": [
+      [
+        "103"
+      ]
+    ],
+    "expected_sources": [
+      "dept_aide/publications",
+      "dept_aide"
+    ],
+    "should_abstain": false
+  },
+  {
+    "id": "Q47",
+    "category": "out_of_scope",
+    "question": "What are the JEE Main closing ranks for B.Tech AIDE admission?",
+    "reference_answer": "Not available on the AIDE website; the bot should say it could not find this.",
+    "required_facts": [],
+    "expected_sources": [],
+    "should_abstain": true
+  },
+  {
+    "id": "Q48",
+    "category": "out_of_scope",
+    "question": "What was the highest placement package offered to AIDE students?",
+    "reference_answer": "Not available on the AIDE website.",
+    "required_facts": [],
+    "expected_sources": [],
+    "should_abstain": true
+  },
+  {
+    "id": "Q49",
+    "category": "out_of_scope",
+    "question": "How many PhD scholars are currently enrolled in the department?",
+    "reference_answer": "The website says no details were found for research scholars, so the bot should not invent a number.",
+    "required_facts": [],
+    "expected_sources": [],
+    "should_abstain": true
+  },
+  {
+    "id": "Q50",
+    "category": "out_of_scope",
+    "question": "Who won the FIFA World Cup in 2022?",
+    "reference_answer": "Out of scope for the AIDE chatbot.",
+    "required_facts": [],
+    "expected_sources": [],
+    "should_abstain": true
+  }
+]

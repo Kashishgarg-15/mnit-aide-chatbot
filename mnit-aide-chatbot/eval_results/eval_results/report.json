@@ -1,0 +1,98 @@
+{
+  "summary": {
+    "n_questions": 50,
+    "n_answerable": 46,
+    "n_out_of_scope": 4,
+    "1_key_fact_accuracy_strict": 0.782608695652174,
+    "1_key_fact_recall_mean": 0.782608695652174,
+    "2_token_f1": 0.3983579295269369,
+    "3_semantic_similarity_tfidf": 0.48830554122773223,
+    "4_source_hit_at_5": 0.782608695652174,
+    "4_source_mrr": 0.6739130434782609,
+    "5_correct_refusal_rate": 1.0,
+    "5_false_refusal_rate": 0.043478260869565216,
+    "latency_mean_s": 13.892634935379029,
+    "latency_p95_s": 63.63434910774231,
+    "errors": 6
+  },
+  "by_category": {
+    "about": {
+      "n": 5,
+      "strict_acc": 1.0,
+      "recall": 1.0,
+      "f1": 0.6441610765458119
+    },
+    "academics": {
+      "n": 4,
+      "strict_acc": 0.5,
+      "recall": 0.5,
+      "f1": 0.3009324009324009
+    },
+    "awards": {
+      "n": 3,
+      "strict_acc": 1.0,
+      "recall": 1.0,
+      "f1": 0.6651618223046795
+    },
+    "committee": {
+      "n": 4,
+      "strict_acc": 1.0,
+      "recall": 1.0,
+      "f1": 0.4412721200046877
+    },
+    "contacts": {
+      "n": 4,
+      "strict_acc": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "events": {
+      "n": 3,
+      "strict_acc": 1.0,
+      "recall": 1.0,
+      "f1": 0.41697191697191704
+    },
+    "facilities": {
+      "n": 4,
+      "strict_acc": 0.75,
+      "recall": 0.75,
+      "f1": 0.3200929772172453
+    },
+    "gallery": {
+      "n": 2,
+      "strict_acc": 0.5,
+      "recall": 0.5,
+      "f1": 0.4740740740740741
+    },
+    "patents": {
+      "n": 3,
+      "strict_acc": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1": 0.3749712445364619
+    },
+    "people": {
+      "n": 4,
+      "strict_acc": 1.0,
+      "recall": 1.0,
+      "f1": 0.5532203311946788
+    },
+    "projects": {
+      "n": 3,
+      "strict_acc": 1.0,
+      "recall": 1.0,
+      "f1": 0.26464078992168877
+    },
+    "publications": {
+      "n": 2,
+      "strict_acc": 0.5,
+      "recall": 0.5,
+      "f1": 0.271585557299843
+    },
+    "syllabus": {
+      "n": 5,
+      "strict_acc": 1.0,
+      "recall": 1.0,
+      "f1": 0.39700629483238176
+    }
+  }
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIDE Assistant · MNIT Jaipur</title>
+<meta name="description" content="Ask questions about the Department of Artificial Intelligence and Data Engineering, MNIT Jaipur. Every answer cites its source.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23c8325f'/%3E%3Cpath d='M9 23 16 8l7 15M12 18h8' stroke='white' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+<script>try{var t=localStorage.getItem('aide.theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+<div class="app" id="app">
+
+  <aside class="rail" id="rail" aria-label="Conversations">
+    <div class="brand">
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 32 32" width="22" height="22"><path d="M9 23 16 8l7 15M12 18h8" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <div class="brand-text"><strong>AIDE Assistant</strong><span>MNIT Jaipur</span></div>
+    </div>
+    <button class="btn-new" id="newChat" type="button">New chat</button>
+    <nav class="history" id="history" aria-label="Past chats"></nav>
+    <div class="rail-foot">
+      <a href="https://mnit.ac.in/dept_aide/" target="_blank" rel="noopener">Department website</a>
+      <button class="link-btn" id="clearAll" type="button">Delete all chats</button>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <main class="stage">
+    <header class="topbar">
+      <button class="icon-btn only-mobile" id="openRail" type="button" aria-label="Open chats">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <h1 class="chat-title" id="chatTitle">New chat</h1>
+      <span class="status" id="status" title="Connecting…"><i></i><span>Connecting</span></span>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch theme">
+        <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </header>
+
+    <section class="scroller" id="scroller" aria-live="polite">
+      <div class="column" id="thread">
+        <div class="welcome" id="welcome">
+          <h2>Ask anything about AIDE.</h2>
+          <p class="lede">Faculty, programs, labs, contacts and notices from the Department of Artificial Intelligence and Data Engineering. Each answer points to the page or PDF it came from.</p>
+          <div class="starters" id="starters"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="composer-wrap">
+      <form class="composer" id="composer" autocomplete="off">
+        <label class="sr-only" for="input">Your question</label>
+        <textarea id="input" rows="1" maxlength="2000" placeholder="Ask about AIDE…"></textarea>
+        <button class="send" id="send" type="submit" aria-label="Send question">
+          <svg class="i-send" viewBox="0 0 24 24" width="20" height="20"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="i-stop" viewBox="0 0 24 24" width="18" height="18"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></svg>
+        </button>
+      </form>
+      <p class="fine">Answers come only from indexed AIDE pages and documents. Check the cited source before acting on dates or deadlines.</p>
+    </footer>
+  </main>
+
+  <aside class="drawer" id="drawer" aria-label="Source" hidden>
+    <div class="drawer-head">
+      <div><span class="drawer-kind" id="dKind"></span><h3 id="dTitle"></h3></div>
+      <button class="icon-btn" id="dClose" type="button" aria-label="Close source">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <a class="drawer-link" id="dLink" target="_blank" rel="noopener"></a>
+    <div class="passage" id="dText"></div>
+  </aside>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>
